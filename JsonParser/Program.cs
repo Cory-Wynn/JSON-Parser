@@ -8,7 +8,10 @@ namespace JsonParser
         {
             var j = new Json();
             var data = j.LoadJson();
+
             j.PrintJsonData(data);
+            j.ExportToTextFile(data);
+
             Console.ReadKey();
         }
     }

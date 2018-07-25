@@ -24,5 +24,14 @@ namespace JsonParser
                 Console.WriteLine(item.Id);
             }
         }
+
+        public void ExportToTextFile(List<Item> items)
+        {
+            using (TextWriter tw = new StreamWriter("JsonData.txt"))
+            {
+                foreach (var item in items)
+                    tw.WriteLine(item.Id + item.Message);
+            }
+        }
     }
 }
