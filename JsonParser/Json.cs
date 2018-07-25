@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Newtonsoft.Json;
 
 namespace JsonParser
@@ -20,8 +21,7 @@ namespace JsonParser
         {
             foreach (var item in items)
             {
-                Console.WriteLine(item.Message);
-                Console.WriteLine(item.Id);
+                Console.WriteLine(GetAllProperties(item));
             }
         }
 
@@ -33,5 +33,17 @@ namespace JsonParser
                     tw.WriteLine(item.Id + item.Message);
             }
         }
+
+        #region Helpers
+
+        private static string GetAllProperties(object obj)
+        {
+            return string.Join(" ", obj.GetType()
+                .GetProperties()
+                .Select(prop => prop.GetValue(obj)));
+        }
+
+        #endregion
+
     }
 }
