@@ -8,7 +8,7 @@ namespace JsonParser
 {
     class Item
     {
-        public int Id;
-        public string Message;
+        public int Id { get; set; }
+        public string Message { get; set; }
     }
 }
