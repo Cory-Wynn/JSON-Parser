@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,9 +9,11 @@ namespace JsonParser
 {
     class Json
     {
+        private readonly string _testFilePath = ConfigurationSettings.AppSettings["TestFilePath"];
+
         public List<Item> LoadJson()
         {
-            using (StreamReader r = new StreamReader(@"TestFiles\Test.json"))
+            using (StreamReader r = new StreamReader(_testFilePath))
             {
                 string json = r.ReadToEnd();
                 return JsonConvert.DeserializeObject<List<Item>>(json);
