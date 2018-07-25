@@ -1,0 +1,11 @@
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\bin\Debug\TestFiles\Test.json
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\bin\Debug\JsonParser.exe.config
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\bin\Debug\JsonParser.exe
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\bin\Debug\JsonParser.pdb
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\bin\Debug\Newtonsoft.Json.xml
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\obj\Debug\JsonParser.csprojAssemblyReference.cache
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\obj\Debug\JsonParser.csproj.CoreCompileInputs.cache
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\obj\Debug\JsonParser.csproj.CopyComplete
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\obj\Debug\JsonParser.exe
+C:\Users\cory.wynn\Desktop\Git Repos\JsonParser\JsonParser\obj\Debug\JsonParser.pdb
