@@ -30,7 +30,7 @@ namespace JsonParser
             using (TextWriter tw = new StreamWriter("JsonData.txt"))
             {
                 foreach (var item in items)
-                    tw.WriteLine(item.Id + item.Message);
+                    tw.WriteLine(GetAllProperties(item));
             }
         }
 
